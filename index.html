@@ -1,1 +1,130 @@
-hello world
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Writing Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 0.5rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background-color: #4CAF50;
+        }
+
+        .content {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .project {
+            margin-bottom: 2rem;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 1rem;
+        }
+
+        .project h2 {
+            margin: 0;
+            color: #4CAF50;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+
+            nav a {
+                margin: 0.5rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Writing Portfolio</h1>
+        <p>Showcasing my best works in real-life stories, fictional pieces, and science blogging.</p>
+    </header>
+
+    <nav>
+        <a href="#real-life">Real-Life Stories</a>
+        <a href="#fiction">Fiction</a>
+        <a href="#blog">Science Blog</a>
+    </nav>
+
+    <div class="content">
+        <section id="real-life">
+            <div class="project">
+                <h2>Life in a Foreign Land</h2>
+                <p>An introspective essay exploring the cultural nuances and personal growth experienced during my two years in Germany.</p>
+                <a href="#">Read More</a>
+            </div>
+        </section>
+
+        <section id="fiction">
+            <div class="project">
+                <h2>The Quantum Detective</h2>
+                <p>A thrilling short story about a physicist turned detective solving mysteries with the help of quantum mechanics.</p>
+                <a href="#">Read More</a>
+            </div>
+        </section>
+
+        <section id="blog">
+            <div class="project">
+                <h2>Decoding Quantum Information</h2>
+                <p>A detailed blog post breaking down the principles of quantum computing for beginners.</p>
+                <a href="#">Read More</a>
+            </div>
+
+            <div class="project">
+                <h2>The Science of Muscle Growth</h2>
+                <p>An evidence-based article discussing the biology and techniques of hypertrophy and strength training.</p>
+                <a href="#">Read More</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
